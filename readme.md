@@ -2,6 +2,7 @@
 * Lets you automate the your basic typing and clicking actions in the web browser
 ## How to install
 > pipenv install
+* chromedriver must be installed
 ## Required files
 * create secrets.json if authentication is required
 ```json
