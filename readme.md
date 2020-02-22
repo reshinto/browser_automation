@@ -1,8 +1,9 @@
 # Browser automation
 * Lets you automate the your basic typing and clicking actions in the web browser
 ## How to install
-> pipenv install
 * chromedriver must be installed
+### python version
+> pipenv install
 ## Required files
 * create secrets.json if authentication is required
 ```json
@@ -49,5 +50,7 @@ Weekly Report
 - did work again
 (end)
 ```
+### For C# version
+* save the above 3 files at the same location as the executable file (.exe file)
 ## TODO
 * change this to more OOP oriented
