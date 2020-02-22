@@ -51,9 +51,9 @@ def readWeeklyReport(_file):
     current = ""
     with open(_file) as f:
         for line in f:
-            lineLength = len(line) - 1
+            lineLength = line.find(")") + 1
             _line = line[:lineLength]
-            if _line == "(end)" or line == "(end)":
+            if _line == "(end)":
                 paraStart = False
                 inputs[current]["bool"] = False
                 stringValue = inputs[current]["text"]
