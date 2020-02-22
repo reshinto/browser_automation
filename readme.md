@@ -1,5 +1,5 @@
 # Browser automation
-* Lets you automate the your basic typing and clicking actions in the web browser
+* Lets you automate the basic typing and clicking actions in the web browser
 ## How to install
 * chromedriver must be installed
 ### python version
