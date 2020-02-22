@@ -3,3 +3,6 @@
 *.log
 *.txt
 *.un*
+bin
+obj
+*.vs
