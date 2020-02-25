@@ -20,6 +20,7 @@ namespace WeeklyReportCSharp
             {
                 Console.WriteLine(c.prompt2);
                 report.Submit();
+                report.ResetWeeklyReport();
             }
             else
             {

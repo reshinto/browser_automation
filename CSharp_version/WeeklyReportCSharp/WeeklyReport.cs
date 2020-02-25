@@ -109,6 +109,11 @@ namespace WeeklyReportCSharp
             }
         }
 
+        public void ResetWeeklyReport()
+        {
+            File.Copy(c.originalWeeklyReport, c.weeklyReport, c.overwrite);
+        }
+
         public string GetDate()
         {
             DateTime today = DateTime.Now;

@@ -2,10 +2,12 @@
 {
     public class Constants
     {
-        public string url = @"https://somewebsite.com";
+        public string url = @"https://toa-ap.cybozu.com/g/index.csp?";
         public string loginData = @".\secrets.json";
         public string elementsData = @".\elements.json";
         public string weeklyReport = @".\weeklyReport.txt";
+        public string originalWeeklyReport = @".\originalWeeklyReport.txt";
+        public bool overwrite = true;
         public string day = "dd";
         public string month = "MMMM";
         public string year = "yyyy";
